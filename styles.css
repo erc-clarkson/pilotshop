@@ -54,6 +54,26 @@ nav a {
 .banner {
     background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide2_image.jpg?v=53788676421797375341484148036");
     background-color: #cccccc;
-	height: 700px
+	height: 700px;
+	text-align:center;
+	display: flex;
+	align-items:center;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
+
+.banner h1 {
+	font-size: 60px;
+	letter-spacing: 12px;
+}
+
+.banner p {
+	font-size: 25px;
+}
+
+.banner button {
+	font-size: 18px;	
+	border: 1px solid #ffffff;
+	background-color: transparent;
+}
