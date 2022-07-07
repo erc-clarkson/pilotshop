@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family:sans-serif;
+	letter-spacing:0.5px;
+}
+
+section {
+	width: 1000px;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+.primary-nav {
+	background-color: #f8f8f8;
+}
+
+nav .login-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+ 
+nav .login-nav img{
+	height: 30px;
+}
+
+.login-nav a {
+	font-size: 12px;
+}
+
+nav .menu-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+nav a {
+	color: #3b3442;
+	text-decoration: none;
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.banner {
+    background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide2_image.jpg?v=53788676421797375341484148036");
+    background-color: #cccccc;
+	height: 700px
+}
+
