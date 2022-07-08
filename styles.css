@@ -9,7 +9,7 @@ body {
 }
 
 section {
-	width: 1000px;
+	width: 1100px;
 }
 
 nav {
@@ -55,9 +55,10 @@ nav a {
     background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide2_image.jpg?v=53788676421797375341484148036");
     background-color: #cccccc;
 	height: 700px;
-	text-align:center;
 	display: flex;
 	align-items:center;
+	justify-content: center;
+	text-align:center;
 	color: #ffffff;
 	text-transform: uppercase;
 }
@@ -66,14 +67,115 @@ nav a {
 .banner h1 {
 	font-size: 60px;
 	letter-spacing: 12px;
+	margin-bottom: -5px;
 }
 
 .banner p {
-	font-size: 25px;
+	font-size: 20px;
+	padding-bottom: 25px;
 }
 
 .banner button {
-	font-size: 18px;	
-	border: 1px solid #ffffff;
+	font-size: 18px;
+	text-transform: uppercase;	
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	padding: 12px 15px;
 	background-color: transparent;
+}
+
+
+.boxes {
+	margin-top: -5%;
+	display: flex;
+	justify-content: center;
+}
+ 
+
+.box-container section {
+	width: 350px;
+	height: 220px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+
+.box-container h2 {
+	font-size: 40px;
+	margin-bottom: -15px;
+	font-weight: normal;
+}
+
+.box-container p {
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.box-1 {
+	background-color: #3b3b3b;
+}
+
+.box-2 {
+	background-color: #2e85b4;
+}
+
+.box-3 {
+	background-color: #4dafd9;
+}
+
+.title { 
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+
+main { 
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.products {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.products section { 
+	width: 25%;
+	padding-bottom: 50px;
+}
+
+.products img {
+	width: 300px;
+	height: 300px;
+}
+
+.price {
+	font-weight: bold;
+	color: #589dc2;
+	font-size: 18px;
+}
+
+
+@media screen and (max-width: 900px) {
+	
+	.products section { 
+		width: 100%;
+		padding-bottom: 50px;
+		display: inline;
+	}
+	
+	.box-3 {
+		visibility: none;
+	}
+	
 }
