@@ -51,6 +51,11 @@ nav a {
 	font-weight: bold;
 }
 
+nav .mobile-nav {
+	display: none;
+	
+}
+
 .banner {
     background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide2_image.jpg?v=53788676421797375341484148036");
     background-color: #cccccc;
@@ -168,14 +173,52 @@ main {
 
 @media screen and (max-width: 900px) {
 	
+	
+	/* .login-nav p {
+		display: none;
+	}
+	
+	nav .login-nav {
+		display: flex;
+		justify-content: center;
+	}
+		
+	.primary-nav {
+		height: 100px;;
+	} */
+	
+	
+	.primary-nav {
+		display: none;
+	}
+	
+	nav .mobile-nav {
+	display: visible
+     }
+	
+	.menu-nav div {
+		display: none;
+	}
+	
+	nav .menu-nav {
+		display: flex;
+		justify-content: center;
+	}
+	
+	
 	.products section { 
+		display: flex;
 		width: 100%;
 		padding-bottom: 50px;
-		display: inline;
 	}
 	
 	.box-3 {
-		visibility: none;
+		display: none;
 	}
 	
+	.products div {
+		padding-left: 50px;
+	}
+	
+
 }
